@@ -17,7 +17,7 @@
     |  
     |  => and "e" logico
     |  => or "ou" logico
-    |  => xor "nao" inversao 
+    |  => xor "nao" inversao
     |  => && "e" logico
     |  => || "ou" logico
     |
@@ -28,7 +28,7 @@
     */
     
     // Falso
-    if (5 == 3 && 10 > 3) {
+    if(5 == 3 && 10 > 3) {
       echo 'Verdadeiro';
     } else {
       echo 'Falso';
@@ -37,7 +37,7 @@
     echo '<br />';
 
     // Verdadeiro
-    if (5 == 3 || 10 > 3) {
+    if(5 == 3 || 10 > 3) {
       echo 'Verdadeiro';
     } else {
       echo 'Falso';
@@ -46,7 +46,7 @@
     echo '<br />';
 
     // Verdadeiro
-    if (5 == 3 XOR 10 > 3) {
+    if(5 == 3 XOR 10 > 3) {
       echo 'Verdadeiro';
     } else {
       echo 'Falso';
@@ -55,7 +55,7 @@
     echo '<br />';
 
     // Falso
-    if (!('a' == 'a')) {
+    if(!('a' == 'a')) {
       echo 'Verdadeiro';
     } else {
       echo 'Falso';

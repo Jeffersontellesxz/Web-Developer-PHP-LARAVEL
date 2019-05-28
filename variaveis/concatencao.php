@@ -14,13 +14,10 @@
     $atividade = 'Programar';
 
     // Concatenando com o operador "."
-
     echo 'Ola ' . $nome . ', vi que sua cor favorita e ' . $cor . ', e estou vendo que voce tem ' . $idade . ', e gosta de ' . $atividade;
 
     // Concatenando usando aspas duplas ""
-
     echo '<br />';
-
     echo "Olá $nome vi que sua cor favorita e $cor, e estou vendo que a sua idade e $idade e gosta de $atividade";
   ?>
 </body>
