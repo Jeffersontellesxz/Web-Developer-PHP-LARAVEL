@@ -31,7 +31,7 @@
 
   <h1>Detalhes do pedido</h1>
 
-  <p>possui cartao da loja ? <?=$usuario ? 'SIM' : 'NAO';?>
+  <p>possui cartao da loja ? <?=$usuario ? 'SIM' : 'NAO'?>
   </p>
 
   <p>Valor da compra <?=$valor_compra?></p>

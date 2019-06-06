@@ -23,42 +23,42 @@
         $linha = '<hr />';
         $texto = 'Curso completo de PHP';
 
-        # strtolower
+        # strtolower => Caracteres Minusculos
         echo $texto;
         echo $quebra;
         echo strtolower($texto);
 
         echo $linha;
 
-        # strtoupper
+        # strtoupper => Caracteres Maiusculos
         echo $texto;
         echo $quebra;
         echo strtoupper($texto);
 
         echo $linha;
 
-        # ucfirst
+        # ucfirst => Primeira Maiuscula
         echo $texto;
         echo $quebra;
         echo ucfirst($texto);
 
         echo $linha;
 
-        # strlen
+        # strlen => Quantidade de Caracters
         echo $texto;
         echo $quebra;
         echo strlen($texto);
 
         echo $linha;
 
-        # str_replace
+        # str_replace => Substitur Caracters
         echo $texto;
         echo $quebra;
         echo str_replace('PHP', 'JavaScript', $texto);
 
         echo $linha;
 
-        # substr
+        # substr => Recuperar Caracters
         echo $texto;
         echo $quebra;
         # Curso completo de PHP

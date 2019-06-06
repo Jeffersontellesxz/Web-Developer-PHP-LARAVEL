@@ -44,7 +44,7 @@
 
         $diferenca_times = abs($time_final - $time_inicial);
 
-        echo 'A direfenca é ' .$diferenca_times;
+        echo 'A direfenca é ' . $diferenca_times;
 
     ?>
 </body>
